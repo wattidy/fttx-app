@@ -1,0 +1,7 @@
+
+{
+  "appId": "com.example.fttx",
+  "appName": "FTTx App",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

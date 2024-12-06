@@ -1,0 +1,115 @@
+
+[
+    {
+        "id": "zone1",
+        "name": "Zone 1",
+        "coordinates": [[45.764, 4.835], [45.765, 4.836]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 90
+    },
+    {
+        "id": "zone2",
+        "name": "Zone 2",
+        "coordinates": [[45.754, 4.825], [45.755, 4.826]],
+        "eligibility": false,
+        "fiber_availability": "No",
+        "percentage_eligible": 0
+    },
+    {
+        "id": "dakar1",
+        "name": "Dakar - Plateau",
+        "coordinates": [[14.692, -17.447], [14.693, -17.448]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 95
+    },
+    {
+        "id": "dakar2",
+        "name": "Dakar - Yoff",
+        "coordinates": [[14.759, -17.494], [14.760, -17.495]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 90
+    },
+    {
+        "id": "dakar3",
+        "name": "Dakar - Mermoz",
+        "coordinates": [[14.715, -17.480], [14.716, -17.481]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 85
+    },
+    {
+        "id": "dakar4",
+        "name": "Dakar - Keur Gorgui",
+        "coordinates": [[14.705, -17.465], [14.706, -17.466]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 80
+    },
+    {
+        "id": "dakar5",
+        "name": "Dakar - Hann",
+        "coordinates": [[14.742, -17.402], [14.743, -17.403]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 75
+    },
+    {
+        "id": "dakar6",
+        "name": "Dakar - Maristes",
+        "coordinates": [[14.754, -17.426], [14.755, -17.427]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 88
+    },
+    {
+        "id": "dakar7",
+        "name": "Dakar - Almadies",
+        "coordinates": [[14.745, -17.513], [14.746, -17.514]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 90
+    },
+    {
+        "id": "dakar8",
+        "name": "Dakar - Liberté",
+        "coordinates": [[14.705, -17.470], [14.706, -17.471]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 85
+    },
+    {
+        "id": "dakar9",
+        "name": "Dakar - Keur Massar",
+        "coordinates": [[14.766, -17.315], [14.767, -17.316]],
+        "eligibility": false,
+        "fiber_availability": "No",
+        "percentage_eligible": 0
+    },
+    {
+        "id": "saint_louis1",
+        "name": "Saint-Louis - Guet Ndar",
+        "coordinates": [[16.032, -16.489], [16.033, -16.490]],
+        "eligibility": false,
+        "fiber_availability": "No",
+        "percentage_eligible": 0
+    },
+    {
+        "id": "thies1",
+        "name": "Thiès - Mbour",
+        "coordinates": [[14.421, -16.965], [14.422, -16.966]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 85
+    },
+    {
+        "id": "ziguinchor1",
+        "name": "Ziguinchor - Tilène",
+        "coordinates": [[12.573, -16.275], [12.574, -16.276]],
+        "eligibility": true,
+        "fiber_availability": "Yes",
+        "percentage_eligible": 80
+    }
+]

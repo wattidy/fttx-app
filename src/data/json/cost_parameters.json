@@ -1,0 +1,7 @@
+
+{
+    "distance_cost_per_km": 100,
+    "fiber_cost_per_meter": 2,
+    "labor_cost": 500,
+    "overhead_cost": 200
+}
