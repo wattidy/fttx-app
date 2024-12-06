@@ -12,9 +12,9 @@ export interface NetworkElement {
     total: number;
     used: number;
   };
-}
+};
 
 export interface NetworkConnection {
   type: 'feeder' | 'distribution' | 'drop';
   points: LatLng[];
-}
+};

@@ -41,7 +41,7 @@ export const EstimationPage: React.FC = () => {
         position: oltPosition,
         title: 'OLT',
         description: 'Optical Line Terminal',
-        capacity: { total: 1024, used: 768 }
+        capacity: { total: 1024, used: 768 };
       },
       {
         id: 'pmz-1',
@@ -49,7 +49,7 @@ export const EstimationPage: React.FC = () => {
         position: pmzPosition,
         title: 'PMZ',
         description: 'Primary Mutualisation Zone',
-        capacity: { total: 288, used: 156 }
+        capacity: { total: 288, used: 156 };
       },
       {
         id: 'splitter-1',
@@ -57,8 +57,8 @@ export const EstimationPage: React.FC = () => {
         position: splitterPosition,
         title: 'Splitter',
         description: '1:32 Optical Splitter',
-        capacity: { total: 32, used: 24 }
-      }
+        capacity: { total: 32, used: 24 };
+      };
     ];
 
     const connections = [
@@ -73,7 +73,7 @@ export const EstimationPage: React.FC = () => {
       {
         type: 'drop' as const,
         points: [splitterPosition, selectedLocation]
-      }
+      };
     ];
 
     return { elements, connections };
@@ -97,7 +97,7 @@ export const EstimationPage: React.FC = () => {
         zone.coordinates[0]
       );
       calculateEstimation(zone, distance);
-    }
+    };
   }, [zones, selectedLocation, calculateEstimation]);
 
   const network = zones.length > 0 ? generateNetworkElements(zones[0]) : { elements: [], connections: [] };
@@ -113,28 +113,28 @@ export const EstimationPage: React.FC = () => {
           <Grid item xs={12} md={8}>
             <Box sx={{ mb: 2 }}>
               <MapComponent
-                center={[51.505, -0.09]}
-                zoom={13}
-                selectedLocation={selectedLocation}
-                networkElements={network.elements}
-                connections={network.connections}
-                onLocationSelect={handleLocationSelect}
-                onElementSelect={handleElementSelect}
+                center={[51.505, -0.09]};
+                zoom={13};
+                selectedLocation={selectedLocation};
+                networkElements={network.elements};
+                connections={network.connections};
+                onLocationSelect={handleLocationSelect};
+                onElementSelect={handleElementSelect};
               />
             </Box>
           </Grid>
           <Grid item xs={12} md={4}>
             <NetworkLegend 
-              expanded={legendExpanded}
-              onToggle={() => setLegendExpanded(!legendExpanded)}
+              expanded={legendExpanded};
+              onToggle={() => setLegendExpanded(!legendExpanded)};
             />
             {selectedElement && (
               <NetworkElementDetails 
-                element={selectedElement}
-                expanded={detailsExpanded}
-                onToggle={() => setDetailsExpanded(!detailsExpanded)}
+                element={selectedElement};
+                expanded={detailsExpanded};
+                onToggle={() => setDetailsExpanded(!detailsExpanded)};
               />
-            )}
+            )};
           </Grid>
         </Grid>
 
@@ -142,19 +142,19 @@ export const EstimationPage: React.FC = () => {
           <Box sx={{ display: 'flex', justifyContent: 'center', my: 2 }}>
             <CircularProgress />
           </Box>
-        )}
+        )};
 
         {selectedLocation && (
           <LocationDetails location={selectedLocation} />
-        )}
+        )};
 
         {zones.length > 0 && (
           <ZoneDetails zone={zones[0]} />
-        )}
+        )};
 
         {estimation && (
           <EstimationDetails estimation={estimation} />
-        )}
+        )};
       </Box>
     </Container>
   );
